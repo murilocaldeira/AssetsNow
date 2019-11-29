@@ -1,0 +1,95 @@
+body {
+    font-family: arial;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: rgb(46, 94, 27);
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #8c978c;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    font-size: 14px;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    color: rgb(46, 94, 27);
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+    padding: 0px;
+    color: rgb(46, 94, 27);
+}
+
+header a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: rgb(46, 94, 27);
+}
+
+.portrait {
+    width: 180px;
+}
+
+input{
+    border: 1px solid #3c8f40;;
+    padding: 8px; 
+    color: rgb(46, 94, 27);
+
+}
+
+button, input:focus {
+    color: rgb(46, 94, 27);
+    box-shadow: rgb(46, 94, 27);
+    outline-color: rgb(46, 94, 27);
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #3c8f40;
+    background: #cffdcf;
+    color: white;
+    padding: 8px;
+    color: rgb(46, 94, 27);
+}
+
+.images_results{
+    float:left;
+    padding-right : 10px;
+    width: 25px;
+}
+
+.parag_results{
+    padding-top: 2px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(46, 94, 27);
+ }
+  
+ :-moz-placeholder { /* Firefox 18- */
+    color: rgb(46, 94, 27); 
+ }
+  
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: rgb(46, 94, 27);
+ }
+  
+ :-ms-input-placeholder {  
+    color: rgb(46, 94, 27);
+ }
