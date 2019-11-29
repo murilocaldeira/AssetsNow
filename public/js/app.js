@@ -31,7 +31,7 @@ cotacoesForm.addEventListener('submit', (event)=>{
     event.preventDefault()
     const ativo = document.querySelector('input').value
 
-    fetch(`./cotacoes?ativo=${ativo}`).then((response)=>{
+    fetch(`/cotacoes?ativo=${ativo}`).then((response)=>{
     response.json().then((data)=>{
         if(data.error){
             RestartHtmlValues()
