@@ -11,9 +11,35 @@
     <body>
          <div class = "main-content" >
             {{>header}}
-            <p>Exemplo de aplicação em NODE.js
-                 para consulta de ativos na bolsa de valores com javascript, html, e css no front. 
-                 Os valores buscados são precisos em tempo real.</p>
+            <p>Para consultar os valores de um ativo na bolsa de valores informe o código do ativo e clique 
+                no botão "Buscar". Abaixo uma lista com alguns exemplos de códigos com suas respectivas empresas:</p> 
+
+            <table>
+               <tr>
+                   <th>EMPRESA</th>
+                   <th>CÓDIGO DO ATIVO</td>
+               </tr>
+               <tr>
+                   <th>AMBEV S/A</th>
+                   <th>ABEV3.SA</td>
+               </tr>
+               <tr>
+                   <th>BANCO DO BRASIL</th>
+                   <th>BBAS3.SA</td>
+               </tr>
+               <tr>
+                   <th>EMBRAER</th>
+                   <th>EMBR3.SA</td>
+               </tr>
+               <tr>
+                   <th>PETROBRAS</th>
+                   <th>PETR4.SA</td>
+               </tr>
+               <tr>
+                   <th>SANTANDER BR</th>
+                   <th>SANB11.SA</th>
+               </tr>
+            </table>
         </div>    
          {{> footer}} 
     </body>

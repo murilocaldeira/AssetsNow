@@ -10,6 +10,15 @@ body {
     color: rgb(46, 94, 27);
 }
 
+table{
+font-size: 100%;
+border-spacing: 12px;
+vertical-align: middle;
+border-collapse: collapse;
+width: 80%;;
+height: 200px;
+}
+
 .main-content {
     flex-grow: 1;
 }
@@ -44,6 +53,14 @@ header a {
 
 .portrait {
     width: 180px;
+}
+
+tr:hover{
+    background: #cffdcf;
+}
+
+a:hover{
+    background: #cffdcf;
 }
 
 input{
