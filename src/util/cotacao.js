@@ -1,7 +1,7 @@
 ﻿const request = require('request')
 
 const url = 'https://api.worldtradingdata.com/api/v1/stock?symbol='
-const apiToken = '&api_token=cFkySN6Uqw6jR7TTOC4idcJOZ14u1059HPFZD7GVE6Jh6W56gvguERzbb43B'
+const apiToken = ',TWTR&api_token=cFkySN6Uqw6jR7TTOC4idcJOZ14u1059HPFZD7GVE6Jh6W56gvguERzbb43B'
 
 const cotacao = (codigo, callback) =>{
 
